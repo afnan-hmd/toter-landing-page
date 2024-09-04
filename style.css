@@ -1,0 +1,14 @@
+body, html {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3c3c40;
+    min-height: 100vh;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+}
