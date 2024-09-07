@@ -1,0 +1,28 @@
+#Colors
+
+primary: #006837
+accent: #96C940
+background: #EFEFEF
+font: #444444
+here & there: #CCCCCC 
+____________________________
+
+#Typography
+
+headlines
+-----------
+Display1: Bold, 72px
+h1: Bold, 56px
+h2: Bold, 48px
+h3: Bold, 32px
+h4: Bold, 24px
+
+
+paragraph
+-----------
+p1: Regular, 18px
+p2: Regular, 16px
+
+
+-----------
+button: Bold, 20px
