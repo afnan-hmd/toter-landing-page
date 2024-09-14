@@ -5,11 +5,6 @@ body, html {
     color: #3c3c40;
     min-height: 100vh;
     text-rendering: auto;
-    /* -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: none; */
     text-size-adjust: none;
 }
 
@@ -26,9 +21,9 @@ body, html {
     font-size: 18px;
 }
 
-.hero-content {
-    z-index: 1; /* Ensures the content is on top of the background */
-}
+.hero-content {z-index: 1;}
+#CTA-headline {color: #96C940;}
+
 
 .hero::before {
     content: "";
@@ -37,7 +32,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Optional: Add overlay for better text contrast */
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 0;
 }
 
