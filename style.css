@@ -11,7 +11,7 @@ body, html {
 
 .hero {
     background: url('assets/hero-bg.png') no-repeat center center/cover;
-    height: 100vh; /* Full viewport height */
+    height: 90vh; /* viewport height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,35 +22,76 @@ body, html {
 }
 .hero-content {z-index: 1;}
 #CTA-headline {color: #96C940;}
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 0;
-}
 .cta-btn {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1.2rem;
     background-color: #006837;
-    color: #fff;
+    color: #ffffff;
 
+}
+.navbar-toggler {
+	border: none;
+	box-shadow: none !important;
 }
 
 
-.services {
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+
+#services .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 .service-list {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    position: relative;
     gap: 1rem;
-    
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+}
+.service-item {
+    position: relative;
+    scroll-snap-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex: 0 0 30%;
+}
+.service-item.active {
+    z-index: 1;
+    transform: scale(1.3);
+    margin: 0;
+    & .service-name {
+        color: #006837;
+        background-color: #96C940;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.service-info{
+    background-color:#CCCCCC;
+} 
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .service-list {gap: 0.5rem;}
+    .service-item > .service-name {font-size: medium;}
+    .service-item.active {
+        transform: scale(1.5);
+        & .service-name {
+            font-size: medium;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .service-item.active {
+        transform: scale(1.1);
+    }
 }

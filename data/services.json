@@ -1,0 +1,35 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "headline": "Service 1",
+        "description": "Detailed information about Service 1.",
+        "image": "assets/service-img1.jpg"
+      },
+      {
+        "id": 2,
+        "headline": "Service 2",
+        "description": "Detailed information about Service 2.",
+        "image": "assets/service-img2.jpg"
+      },
+      {
+        "id": 3,
+        "headline": "Service 3",
+        "description": "Detailed information about Service 3.",
+        "image": "assets/service-img3.jpg"
+      },
+      {
+        "id": 4,
+        "headline": "Service 4",
+        "description": "Detailed information about Service 4.",
+        "image": "assets/service-img4.jpg"
+      },
+      {
+        "id": 5,
+        "headline": "Service 5",
+        "description": "Detailed information about Service 5.",
+        "image": "assets/service-img5.jpg"
+      }
+    ]
+  }
+  
