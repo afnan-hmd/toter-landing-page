@@ -84,6 +84,7 @@ body, html {
     color: #ffffff;
     &:hover {
         background-color: #A6DB4C;
+        color: white;
     }
 }
 
@@ -117,6 +118,17 @@ body, html {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0; 
+    list-style-type: none;
+}
+.advantages-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 
