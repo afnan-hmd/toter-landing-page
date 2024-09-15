@@ -70,7 +70,6 @@ body, html {
         padding-bottom: 1.5rem;
     }
 }
-
 .service-info{
     background-color: #006837;
     color: white;
@@ -88,6 +87,16 @@ body, html {
     }
 }
 
+
+
+.top-pic {
+    background: url('assets/hero-bg.png') no-repeat center center/cover;
+    height: 10vh; /* viewport height */
+}
+.main-pic {
+    background: url('assets/bg-colored.jpg') no-repeat center center/cover;
+    height: 60vh; /* viewport height */
+}
 
 
 
