@@ -28,6 +28,7 @@ body, html {
     margin-top: 20px;
     padding: 10px 60px;
     font-size: 1.2rem;
+    font-weight: bold;
     background-color: #004E29;
     color: #ffffff;
     &:hover {
@@ -78,6 +79,7 @@ body, html {
 .contact-btn {
     padding: 5px 40px;
     font-size: 1.2rem;
+    font-weight: bold;
     background-color: #96C940;
     color: #ffffff;
     &:hover {
