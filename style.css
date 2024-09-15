@@ -122,6 +122,7 @@ body, html {
 .advantages-list {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-left: 0; 
     list-style-type: none;
 }
@@ -130,8 +131,34 @@ body, html {
     align-items: center;
     margin-bottom: 10px;
 }
+.adv-container {
+    display: flex;
+}
+.img-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+  .adv-img-top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+  }
+  .adv-img-bottom {
+    grid-column: 4 / -1;
+    grid-row: 1; 
+  }
 
 
+/* companies section */
+.companies {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* services queries */
