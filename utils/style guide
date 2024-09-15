@@ -5,6 +5,10 @@ accent: #96C940
 background: #EFEFEF
 font: #444444
 here & there: #CCCCCC 
+
+button hover colors: #A6DB4C, #006837
+button no hover colors: #96C940, #004E29
+
 ____________________________
 
 #Typography
