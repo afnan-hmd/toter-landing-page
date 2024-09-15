@@ -1,17 +1,19 @@
 body, html {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
     color: #3c3c40;
-    min-height: 100vh;
-    text-rendering: auto;
-    text-size-adjust: none;
 }
+
+
+.navbar-toggler {
+	border: none;
+	box-shadow: none !important;
+}
+
 
 
 .hero {
     background: url('assets/hero-bg.png') no-repeat center center/cover;
-    height: 90vh; /* viewport height */
+    height: 90vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +33,6 @@ body, html {
     &:hover {
         background-color: #006837;
     }
-}
-.navbar-toggler {
-	border: none;
-	box-shadow: none !important;
 }
 
 
@@ -91,11 +89,11 @@ body, html {
 
 .top-pic {
     background: url('assets/hero-bg.png') no-repeat center center/cover;
-    height: 10vh; /* viewport height */
+    height: 10vh;
 }
 .main-pic {
     background: url('assets/bg-colored.jpg') no-repeat center center/cover;
-    height: 60vh; /* viewport height */
+    height: 60vh; 
 }
 
 
