@@ -161,6 +161,11 @@ body, html {
         }
     }
 }
+@media (min-width: 768px) {
+    .adv-container {
+        gap: 3rem;
+    }
+}
 @media (min-width: 1200px) {
     .service-item.active {
         transform: scale(1.1);
