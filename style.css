@@ -1,6 +1,7 @@
 body, html {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     color: #444444;
+    line-height: 1.8;
 }
 
 /* header */
@@ -150,9 +151,26 @@ body, html {
 
 
 /* footer */
+.footer 
+{
+    background-color: #004E29;
+    color: white;
+    letter-spacing: .8px;
+}
 .footer a {
     text-decoration: none;
+    color: white;
 }
+.footer ul {
+    line-height: 2.5rem;
+}
+.footer p {
+    line-height: 0.6rem;
+}
+.footer-contact a {
+    color: #96C940;
+}
+#social-icons {font-size: 28px;}
 
 
 
@@ -166,11 +184,16 @@ body, html {
             font-size: medium;
         }
     }
+
+    .footer ul {
+        line-height: 1.5rem;
+    }
 }
 @media (min-width: 768px) {
     .adv-container {
         gap: 3rem;
     }
+    
 }
 @media (min-width: 1200px) {
     .service-item.active {
