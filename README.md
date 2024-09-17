@@ -1,2 +1,2 @@
 # toter-landing-page
-internship files
+Design a Creative Landing Page for toter.com
