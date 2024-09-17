@@ -101,23 +101,9 @@ body, html {
 
 
 /* advantages section */
-.checkmark-svg {
-    display: inline-block;
-    position: relative;
-    padding-left: 30px; 
-}
-.checkmark-svg::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 25px;
-    height: 25px;
-    background-image: url('assets/check_circle.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.fa-check-circle {
+    color: #006837;
+    font-size: larger;
 }
 .advantages-list {
     display: flex;
@@ -138,20 +124,7 @@ body, html {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
-    /* width: 500px;  
-    height: 300px; */
-  }
-  /* .adv-img-top {
-    grid-column: 2 / span 8;
-    grid-row: 1;
-    padding-top: 30%;
-    z-index: 1;
-  }
-  .adv-img-bottom {
-    grid-column: 6 / -1;
-    grid-row: 1; 
-  } */
- 
+}
 .adv-img-top {
     grid-column: 4 / -1;
     grid-row: 1; 
