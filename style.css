@@ -138,8 +138,6 @@ body, html {
 
 
 
-
-
 /* companies section */
 .companies {
     background-color: #EFEFEF;
@@ -148,6 +146,14 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* footer */
+.footer a {
+    text-decoration: none;
+}
+
 
 
 /* services queries */
