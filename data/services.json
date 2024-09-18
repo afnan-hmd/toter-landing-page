@@ -1,35 +1,39 @@
 {
-    "services": [
-      {
-        "id": 1,
-        "headline": "Service 1",
-        "description": "Detailed information about Service 1.",
-        "image": "assets/service-img1.jpg"
-      },
-      {
-        "id": 2,
-        "headline": "Service 2",
-        "description": "Detailed information about Service 2.",
-        "image": "assets/service-img2.jpg"
-      },
-      {
-        "id": 3,
-        "headline": "Service 3",
-        "description": "Detailed information about Service 3.",
-        "image": "assets/service-img3.jpg"
-      },
-      {
-        "id": 4,
-        "headline": "Service 4",
-        "description": "Detailed information about Service 4.",
-        "image": "assets/service-img4.jpg"
-      },
-      {
-        "id": 5,
-        "headline": "Service 5",
-        "description": "Detailed information about Service 5.",
-        "image": "assets/service-img5.jpg"
-      }
-    ]
-  }
-  
+  "services": [
+    {
+      "id": 1,
+      "name": "Cart Buy Back",
+      "img": "assets/SS-cartBuyBack.png",
+      "headline": "Best Cart Buy Back Program",
+      "subhead": "We offer the best buyback program for old carts."
+    },
+    {
+      "id": 2,
+      "name": "RFID Cart Management",
+      "img": "assets/SS-RFID.jpg",
+      "headline": "Track Your Carts with RFID",
+      "subhead": "RFID technology to manage and track carts efficiently."
+    },
+    {
+      "id": 3,
+      "name": "Custom Solutions",
+      "img": "assets/SS-CustomSol.jpg",
+      "headline": "Find Treasure in Our Custom Trash Can Solutions",
+      "subhead": "Toter has over 30 years of experience providing assembly, delivery, and cart maintenance services."
+    },
+    {
+      "id": 4,
+      "name": "Cart Maintenance",
+      "img": "assets/SS-cartMaintenance.jpg",
+      "headline": "Keep Your Carts in Top Shape",
+      "subhead": "We offer regular maintenance to keep your carts functioning optimally."
+    },
+    {
+      "id": 5,
+      "name": "Cart Assembly & Delivery",
+      "img": "assets/SS-CartDelivery.jpg",
+      "headline": "Seamless Cart Assembly and Delivery",
+      "subhead": "Our team assembles and delivers carts efficiently."
+    }
+  ]
+}
