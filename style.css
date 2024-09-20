@@ -34,10 +34,12 @@ body, html {
 .hero-content {z-index: 1;}
 #CTA-headline {color: #96C940;}
 .cta-btn {
+    border-radius: 0%;
     margin-top: 20px;
-    padding: 10px 60px;
+    padding: 15px 80px;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: .15rem;
     background-color: #004E29;
     color: #ffffff;
     &:hover {
@@ -91,7 +93,7 @@ body, html {
         font-weight: bold;
         color: #006837;
         background-color: #96C940;
-        padding-bottom: 1.5rem;
+        padding-bottom: 2rem;
     }
 }
 .service-info{
@@ -145,25 +147,6 @@ body, html {
     align-items: center;
     margin-bottom: 10px;
 }
-.adv-container {
-    display: flex;
-}
-.img-stack {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
-}
-.adv-img-top {
-    grid-column: 4 / -1;
-    grid-row: 1; 
-}
-.adv-img-mid {
-    grid-column: 2 / span 8;
-    grid-row: 1;
-    padding-top: 70%;
-    z-index: 1;
-}
-
 
 
 /* companies section */
@@ -216,7 +199,7 @@ body, html {
         line-height: 1.5rem;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .adv-container {
         gap: 3rem;
     }
