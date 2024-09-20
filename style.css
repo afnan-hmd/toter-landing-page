@@ -58,55 +58,64 @@ body, html {
     padding-left: 0;
     padding-right: 0;
 }
-.service-list {
+.card-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    position: relative;
-    gap: 1rem;
+    align-items: center;
+    min-height: 300px;
     overflow: hidden;
-    scroll-snap-type: x mandatory;
 }
 .service-item {
-    position: relative;
-    scroll-snap-align: center;
     transition: all 0.3s ease;
-    cursor: pointer;
-    flex: 0 0 20%;
-    width: 12rem;
+    margin: 0 10px;
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+}
+.service-item.active {
+    transform: scale(1.2);
+    z-index: 1;
+    width: 240px;
+    color: #006837;
+    background-color: #96C940;
 }
 .img-container {
-    position: relative;
-    width: 100%;
-    padding-top: 75%; /* 4:3 aspect ratio */
+    height: 150px;
     overflow: hidden;
 }
 .service-img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.service-item.active {
-    z-index: 1;
-    transform: scale(1.3);
-    margin: 0;
-    & .service-name {
-        font-weight: bold;
+.service-item.active .img-container {
+    height: 180px;
+}
+.service-name {
+    font-size: 1rem;
+    margin-top: 10px;
+    padding-bottom: 2rem;
+}
+.service-item.active .service-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-arrow {
+    font-size: 2rem;
+    color: #004E29;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    &:hover {
         color: #006837;
-        background-color: #96C940;
-        padding-bottom: 2rem;
     }
 }
-.service-info{
+.service-info {
     background-color: #006837;
     color: white;
-} 
+}
 #service-headline {
-    color:#96C940;
+    color: #96C940
+
 }
 .contact-btn {
     padding: 5px 40px;
@@ -192,15 +201,6 @@ body, html {
 
 /* services queries */
 @media (max-width: 768px) {
-    .service-list {gap: 0.5rem;}
-    .service-item > .service-name {font-size: medium;}
-    .service-item.active {
-        transform: scale(1.5);
-        & .service-name {
-            font-size: medium;
-        }
-    }
-
     .footer ul {
         line-height: 1.5rem;
     }
@@ -210,9 +210,4 @@ body, html {
         gap: 3rem;
     }
     
-}
-@media (min-width: 1200px) {
-    .service-item.active {
-        transform: scale(1.1);
-    }
 }
