@@ -9,6 +9,11 @@ body, html {
 .h1, h1 {
     font-size: 2.5rem;
     font-weight: 900 !important;
+    letter-spacing: normal;
+}
+.display-3 {
+    font-weight: 900 !important;
+    letter-spacing: normal;
 }
 
 /* header */
@@ -147,6 +152,7 @@ body, html {
     align-items: center;
     margin-bottom: 10px;
 }
+
 
 
 /* companies section */
