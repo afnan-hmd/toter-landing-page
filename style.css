@@ -2,7 +2,7 @@ body, html {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     color: #444444;
     line-height: 1.8;
-    letter-spacing: .8px;
+    letter-spacing: .8px; overflow-x: hidden;
 }
 
 
@@ -34,17 +34,15 @@ body, html {
     position: relative;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 .hero-content {z-index: 1;}
 #CTA-headline {color: #96C940;}
 .cta-btn {
     border-radius: 0%;
-    margin-top: 20px;
-    padding: 15px 80px;
-    font-size: 1.2rem;
-    font-weight: 900;
-    letter-spacing: .15rem;
+    padding: 1rem, 5rem;
+    font-size: 2rem;
+    font-weight: bold;
     background-color: #004E29;
     color: #ffffff;
     &:hover {
@@ -200,6 +198,9 @@ body, html {
 
 
 /* services queries */
+@media (max-width: 576px) {
+    .hero {font-size: 1rem;}
+}
 @media (max-width: 768px) {
     .footer ul {
         line-height: 1.5rem;
