@@ -35,6 +35,7 @@ body, html {
     text-align: center;
     color: white;
     font-size: 1.2rem;
+    overflow: hidden;
 }
 .hero-content {z-index: 1;}
 #CTA-headline {color: #96C940;}
@@ -71,9 +72,6 @@ body, html {
     box-sizing: border-box;
     justify-content: space-between; /* Ensures content inside is spaced properly */
     min-width: 18rem;
-}
-.service-item::before{
-    background-color: #004E29;
 }
 .service-item.active {
     width: 80%;
@@ -209,7 +207,6 @@ body, html {
 /* media queries */
 @media (max-width: 576px) {
     .hero {font-size: 1rem;}
-    
 }
 @media (max-width: 768px) {
     .footer ul {
@@ -220,4 +217,7 @@ body, html {
     .adv-container {
         gap: 3rem;
     } 
+    .services .service-item.active .service-name {
+        font-size: 1.7rem;
+    }
 }
