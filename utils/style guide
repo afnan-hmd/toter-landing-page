@@ -8,25 +8,3 @@ here & there: #CCCCCC
 
 button hover colors: #A6DB4C, #006837
 button no hover colors: #96C940, #004E29
-
-____________________________
-
-#Typography
-
-headlines
------------
-Display1: Bold, 72px
-h1: Bold, 56px
-h2: Bold, 48px
-h3: Bold, 32px
-h4: Bold, 24px
-
-
-paragraph
------------
-p1: Regular, 18px
-p2: Regular, 16px
-
-
------------
-button: Bold, 20px
