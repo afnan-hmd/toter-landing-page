@@ -16,6 +16,8 @@ body, html {
     letter-spacing: normal;
 }
 
+
+
 /* header */
 .navbar-toggler {
 	border: none;
@@ -32,6 +34,7 @@ body, html {
 .nav-1 .nav-link.nav-phone {
     color: #96C940 !important;
 }
+
 
 
 /* hero section */
@@ -80,7 +83,7 @@ body, html {
     max-width: 30%;
     opacity: 0.7;
     box-sizing: border-box;
-    justify-content: space-between; /* Ensures content inside is spaced properly */
+    justify-content: space-between; 
     min-width: 18rem;
 }
 .service-item.active {
@@ -107,6 +110,7 @@ body, html {
     font-size: 1rem;
     margin-top: 10px;
     text-align: center;
+    font-weight: bold;
 }
 .service-item.active .service-name {
     font-size: 1.2rem;
@@ -218,6 +222,11 @@ body, html {
 /* media queries */
 @media (max-width: 576px) {
     .hero {font-size: 1rem;}
+}
+@media (min-width: 768px) {
+    .cta-btn {
+        padding: 1rem 6rem;
+    }
 }
 @media (max-width: 768px) {
     .footer ul {
