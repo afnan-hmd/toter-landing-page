@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(data => data.services)
             .catch(error => {
-                console.error('Error fetching the JSON data:', error);
+                console.error('Error fetching JSON data:', error);
                 return [];
             });
     }
